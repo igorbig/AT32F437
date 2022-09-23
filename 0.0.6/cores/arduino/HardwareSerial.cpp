@@ -159,8 +159,8 @@ void HardwareSerial::begin(
 
         crm_periph_clock_enable(CRM_GPIOA_PERIPH_CLOCK, TRUE);
         crm_periph_clock_enable(CRM_UART4_PERIPH_CLOCK, TRUE);
-        crm_periph_clock_enable(CRM_IOMUX_PERIPH_CLOCK,TRUE);
-        gpio_pin_remap_config(UART4_GMUX_0010, TRUE);
+//-{}        crm_periph_clock_enable(CRM_IOMUX_PERIPH_CLOCK,TRUE);
+//        gpio_pin_remap_config(UART4_GMUX_0010, TRUE);
     }
     else if(_USARTx == UART5)
     {
@@ -171,8 +171,8 @@ void HardwareSerial::begin(
 
         crm_periph_clock_enable(CRM_GPIOB_PERIPH_CLOCK, TRUE);
         crm_periph_clock_enable(CRM_UART5_PERIPH_CLOCK, TRUE);
-        crm_periph_clock_enable(CRM_IOMUX_PERIPH_CLOCK,TRUE);
-        gpio_pin_remap_config(UART5_GMUX_0001, TRUE);
+//-{}        crm_periph_clock_enable(CRM_IOMUX_PERIPH_CLOCK,TRUE);
+//        gpio_pin_remap_config(UART5_GMUX_0001, TRUE);
     }
     else
     {
