@@ -11,7 +11,7 @@ igorbigAT32F437.build.board=AT32f437xxT7
 igorbigAT32F437.build.vect_flags=-DUSER_ADDR_ROM=0x08000000
 igorbigAT32F437.build.core=arduino
 igorbigAT32F437.build.extra_flags=-DAT32F437ZMT7 -USE_STDPERIPH_DRIVER
-igorbigAT32F437.build.variant=AT32F437CGU7
+igorbigAT32F437.build.variant=AT32F437ZMT7
 igorbigAT32F437.build.variant_system_lib=FrameLib.a
 igorbigAT32F437.build.ldscript=linker_scripts/AT32F437xM_FLASH.ld
 
@@ -86,17 +86,3 @@ igorbigAT32F437.menu.upload_method.USBDFUMethod=Artery DFU ISP
 igorbigAT32F437.menu.upload_method.USBDFUMethod.upload.protocol=Artery_ISP
 igorbigAT32F437.menu.upload_method.USBDFUMethod.upload.tool=Artery_ISP_Console
 igorbigAT32F437.menu.upload_method.USBDFUMethod.upload.maximum_size=1048576
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
