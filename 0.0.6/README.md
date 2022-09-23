@@ -3,5 +3,5 @@
 
 To compile for this core with the Arduino IDE, add the following URL to the boards manager.
 
-`https://github.com/igorbig/MYArterYteK/tree/main/ArterYteK/hardware/AT-START-F437/0.0.6`
+`https://raw.githubusercontent.com/igorbig/AT32F437/main/0.0.6/package_myat32_index.json`
 ![image](https://user-images.githubusercontent.com/57818792/180649925-ed366423-5f76-42d5-b801-dd5ed2923825.png)
